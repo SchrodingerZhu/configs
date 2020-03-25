@@ -1,0 +1,34 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Replace the "❯" symbol in the prompt with "➜"
+[character]      # The name of the module we are configuring is "character"
+symbol = "λ"     # The "symbol" segment is being set to "➜"
+
+[package]
+disabled = false
+symbol = "🎁 "
+
+[time]
+disabled = false
+format = "🕙[ %T ]"
+
+[battery]
+disabled = false
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
+[haskell]
+symbol = " "
+
+[git_branch]
+symbol = "🌱 "
+
+[memory_usage]
+disabled = false
+show_percentage = true
+show_swap = false
+threshold = -1
+symbol = "💻mem "
+style = "bold dimmed green"
