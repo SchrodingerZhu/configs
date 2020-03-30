@@ -41,7 +41,7 @@ myManageHook = composeAll
   , className =? "ksplashqml" --> doFloat
   , className =? "ksplashx" --> doFloat
   , className =? "plasmashell"  --> doFloat
-  -- , className =? "zoom" --> doFloat
+  , className =? "spectacle" --> doFloat
   ]
 
 mykeys (XConfig {modMask = modm}) = M.fromList $
